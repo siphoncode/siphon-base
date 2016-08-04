@@ -1,0 +1,8 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Siphon"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Siphon/SiphonSDK/Build/Products/Release-universal"
+OTHER_CFLAGS = $(inherited) -iquote "$CONFIGURATION_BUILD_DIR/Bolts.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/FBSDKCoreKit.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/FBSDKLoginKit.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/FBSDKShareKit.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/Mixpanel.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/React.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/SSZipArchive.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/SocketRocket.framework/Headers" -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/Siphon"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"SiphonSDK" -framework "Bolts" -framework "FBSDKCoreKit" -framework "FBSDKLoginKit" -framework "FBSDKShareKit" -framework "Mixpanel" -framework "React" -framework "SSZipArchive" -framework "SocketRocket"
+PODS_FRAMEWORK_BUILD_PATH = $(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods
+PODS_ROOT = ${SRCROOT}/Pods

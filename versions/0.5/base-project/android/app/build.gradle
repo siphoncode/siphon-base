@@ -1,0 +1,101 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "com.getsiphon.siphonbase"
+        minSdkVersion 16
+        targetSdkVersion 23
+        versionCode 4
+        versionName "0.5"
+
+        ndk {
+            abiFilters "armeabi-v7a", "x86"
+        }
+
+        packagingOptions {
+            exclude "lib/arm64-v8a/*.so"
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.3.0'
+    compile project(':ReactAndroid')
+    compile 'com.squareup.okhttp3:okhttp:3.2.0'
+    compile 'com.google.code.gson:gson:2.6.2'
+    compile 'commons-io:commons-io:2.4'
+    compile 'com.neovisionaries:nv-websocket-client:1.25'
+    compile 'com.mixpanel.android:mixpanel-android:4.8.5'
+
+    // react-native-video
+    compile 'com.yqritc:android-scalablevideoview:1.0.1' // probably needed because transitive=false
+    compile(project(':RCTVideo')) {
+        transitive = false // this avoids 'com.facebook.react' conflict.
+    }
+
+    // react-native-camera
+    compile(project(':RCTCamera')) {
+        transitive = false
+    }
+
+    // react-native-device-info
+    compile(project(':RNDeviceInfo')) {
+        transitive = false
+    }
+
+    // react-native-fs
+    compile(project(':react-native-fs')) {
+        transitive = false
+    }
+
+    // react-native-linear-gradient
+    compile(project(':react-native-linear-gradient')) {
+        transitive = false
+    }
+
+//    // gl-react-native
+//    compile(project(':RNGL')) {
+//        transitive = false
+//    }
+
+    // react-native-material-kit
+    compile(project(':react-native-material-kit')) {
+        transitive = false
+    }
+
+    // react-native-maps
+    compile(project(':react-native-maps')) {
+        exclude module: 'react-native'
+    }
+
+    // react-native-contacts
+    compile(project(':react-native-contacts')) {
+        transitive = false
+    }
+
+    // react-native-fbsdk
+    compile(project(':react-native-fbsdk')) {
+        transitive = false
+    }
+}
+
+android {
+    packagingOptions {
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+    }
+}
+
+// react-native-vector-icons
+//apply from: "../../../lib/node_modules/react-native-vector-icons/fonts.gradle"

@@ -1,0 +1,11 @@
+{
+  "name": "third-party",
+  "description": "Third party packages required for siphon-base.",
+  "dependencies": {
+    "react-native": "https://github.com/getsiphon/react-native#c56976a",
+    "react-native-motion-manager": "0.0.6",
+    "react-native-vector-icons": "1.1.0",
+    "react-native-video": "0.6.1",
+    "react-native-youtube": "0.6.0"
+  }
+}

@@ -1,0 +1,42 @@
+include ':app'
+include ':ReactAndroid'
+
+project(':ReactAndroid').projectDir = new File(
+        rootProject.projectDir, 'react-native/ReactAndroid')
+
+// react-native-video
+include ':RCTVideo'
+project(':RCTVideo').projectDir = new File(
+        rootProject.projectDir, '../../lib/node_modules/react-native-video/android')
+
+// react-native-camera (note: for some bizarre reason calling this :react-native-camera
+// causes dependency swapping issues.)
+include ':RCTCamera'
+project(':RCTCamera').projectDir = new File(
+        rootProject.projectDir, '../../lib/node_modules/react-native-camera/android')
+
+
+// react-native-device-info
+include ':RNDeviceInfo'
+project(':RNDeviceInfo').projectDir = new File(
+        rootProject.projectDir, '../../lib/node_modules/react-native-device-info/android')
+
+// react-native-fs
+include ':react-native-fs'
+project(':react-native-fs').projectDir = new File(
+        settingsDir, '../../lib/node_modules/react-native-fs/android')
+
+// react-native-linear-gradient
+include ':react-native-linear-gradient'
+project(':react-native-linear-gradient').projectDir = new File(
+        rootProject.projectDir, '../../lib/node_modules/react-native-linear-gradient/android')
+
+//// gl-react-native
+//include ':RNGL'
+//project(':RNGL').projectDir = new File(
+//        rootProject.projectDir, '../../lib/node_modules/gl-react-native/android')
+
+// react-native-material-kit
+include ':react-native-material-kit'
+project(':react-native-material-kit').projectDir = new File(
+        rootProject.projectDir, '../../lib/node_modules/react-native-material-kit/android')

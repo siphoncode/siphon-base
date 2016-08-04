@@ -1,0 +1,17 @@
+{
+  "name": "third-party",
+  "description": "Third party packages required for siphon-base.",
+  "dependencies": {
+    "react-native": "https://github.com/getsiphon/react-native#269cac4",
+    "react-native-vector-icons": "1.3.4",
+    "react-native-video": "0.7.1",
+    "react-native-youtube": "0.6.0",
+    "react-native-motion-manager": "0.0.6",
+    "react-native-camera": "https://github.com/lwansbrough/react-native-camera#cfac209",
+    "react-native-device-info": "0.8.4",
+    "react-native-fs": "https://github.com/getsiphon/react-native-fs#b9a6ad5",
+    "react-native-linear-gradient": "1.5.2",
+    "react-native-touch-id": "1.2.4",
+    "react-native-material-kit": "0.3.0"
+  }
+}

@@ -1,0 +1,89 @@
+PODS:
+  - Mixpanel (2.9.0):
+    - Mixpanel/Mixpanel (= 2.9.0)
+  - Mixpanel/Mixpanel (2.9.0)
+  - React (0.18.0):
+    - React/Core (= 0.18.0)
+  - React/ART (0.18.0):
+    - React/Core
+  - React/Core (0.18.0)
+  - React/RCTActionSheet (0.18.0):
+    - React/Core
+  - React/RCTGeolocation (0.18.0):
+    - React/Core
+  - React/RCTImage (0.18.0):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTLinkingIOS (0.18.0):
+    - React/Core
+  - React/RCTNetwork (0.18.0):
+    - React/Core
+  - React/RCTPushNotification (0.18.0):
+    - React/Core
+  - React/RCTSettings (0.18.0):
+    - React/Core
+  - React/RCTText (0.18.0):
+    - React/Core
+  - React/RCTVibration (0.18.0):
+    - React/Core
+  - React/RCTWebSocket (0.18.0):
+    - React/Core
+  - Siphon (0.3):
+    - Mixpanel (= 2.9.0)
+    - React (= 0.18.0)
+    - SocketRocket (= 0.4.2)
+    - SSZipArchive (= 0.3.3)
+  - SocketRocket (0.4.2)
+  - SSZipArchive (0.3.3)
+
+DEPENDENCIES:
+  - Mixpanel (= 2.9.0)
+  - React (from `https://github.com/getsiphon/react-native.git`, commit `c56976a`)
+  - React/ART (from `https://github.com/getsiphon/react-native.git`, commit `c56976a`)
+  - React/RCTActionSheet (from `https://github.com/getsiphon/react-native.git`, commit
+    `c56976a`)
+  - React/RCTGeolocation (from `https://github.com/getsiphon/react-native.git`, commit
+    `c56976a`)
+  - React/RCTImage (from `https://github.com/getsiphon/react-native.git`, commit `c56976a`)
+  - React/RCTLinkingIOS (from `https://github.com/getsiphon/react-native.git`, commit
+    `c56976a`)
+  - React/RCTNetwork (from `https://github.com/getsiphon/react-native.git`, commit
+    `c56976a`)
+  - React/RCTPushNotification (from `https://github.com/getsiphon/react-native.git`,
+    commit `c56976a`)
+  - React/RCTSettings (from `https://github.com/getsiphon/react-native.git`, commit
+    `c56976a`)
+  - React/RCTText (from `https://github.com/getsiphon/react-native.git`, commit `c56976a`)
+  - React/RCTVibration (from `https://github.com/getsiphon/react-native.git`, commit
+    `c56976a`)
+  - React/RCTWebSocket (from `https://github.com/getsiphon/react-native.git`, commit
+    `c56976a`)
+  - Siphon (from `https://getsiphon:CHANGEME@bitbucket.org/getsiphon/siphon-sdk-ios.git`,
+    commit `7fc10d8`)
+  - SocketRocket (= 0.4.2)
+  - SSZipArchive (= 0.3.3)
+
+EXTERNAL SOURCES:
+  React:
+    :commit: c56976a
+    :git: https://github.com/getsiphon/react-native.git
+  Siphon:
+    :commit: 7fc10d8
+    :git: https://getsiphon:CHANGEME@bitbucket.org/getsiphon/siphon-sdk-ios.git
+
+CHECKOUT OPTIONS:
+  React:
+    :commit: c56976a
+    :git: https://github.com/getsiphon/react-native.git
+  Siphon:
+    :commit: 7fc10d8
+    :git: https://getsiphon:CHANGEME@bitbucket.org/getsiphon/siphon-sdk-ios.git
+
+SPEC CHECKSUMS:
+  Mixpanel: 42ae6168effc48481d957f7883dd8514a398738d
+  React: 4092e2ece4866dc05763a5cb28e140fe2a5189b4
+  Siphon: 53b95efd47f1c370d62176d7777bc1144d39400e
+  SocketRocket: ffe08119b00ef982f6c37052a4705a057c8494ad
+  SSZipArchive: 2cf2a6d3ac9f03252b7d96f93728b9b983be9afb
+
+COCOAPODS: 0.39.0

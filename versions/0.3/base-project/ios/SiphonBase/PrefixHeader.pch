@@ -1,0 +1,13 @@
+//
+//  PrefixHeader.pch
+//  SiphonBase
+//
+//  Created by Alastair Roberts on 20/01/2016.
+//  Copyright © 2016 Siphon. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+@import UIKit;
+@import Foundation;
+#endif /* PrefixHeader_pch */

@@ -1,0 +1,766 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A8DA8D21BB124B100F538AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8DA8D11BB124B100F538AC /* main.m */; };
+		1A8DA8D51BB124B100F538AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8DA8D41BB124B100F538AC /* AppDelegate.m */; };
+		1A8DA8DD1BB124B100F538AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A8DA8DC1BB124B100F538AC /* Assets.xcassets */; };
+		31755D07869242491551A4C7 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C16A3101CB869D56A6B4A397 /* Pods.framework */; };
+		41152B2F1C4FCBAF005A718F /* SPConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 41152B2E1C4FCBAF005A718F /* SPConfig.m */; };
+		413BBE111C3544AD005670FE /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 413BBE091C3544AD005670FE /* Entypo.ttf */; };
+		413BBE121C3544AD005670FE /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 413BBE0A1C3544AD005670FE /* EvilIcons.ttf */; };
+		413BBE131C3544AD005670FE /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 413BBE0B1C3544AD005670FE /* FontAwesome.ttf */; };
+		413BBE141C3544AD005670FE /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 413BBE0C1C3544AD005670FE /* Foundation.ttf */; };
+		413BBE151C3544AD005670FE /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 413BBE0D1C3544AD005670FE /* Ionicons.ttf */; };
+		413BBE161C3544AD005670FE /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 413BBE0E1C3544AD005670FE /* MaterialIcons.ttf */; };
+		413BBE171C3544AD005670FE /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 413BBE0F1C3544AD005670FE /* Octicons.ttf */; };
+		413BBE181C3544AD005670FE /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 413BBE101C3544AD005670FE /* Zocial.ttf */; };
+		414B1B231C0AD0DA0042C4B5 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 414B1B221C0AD0DA0042C4B5 /* Launch Screen.storyboard */; };
+		41796A251CC12B74005A22C8 /* libBVLinearGradient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41796A181CC12B11005A22C8 /* libBVLinearGradient.a */; };
+		41796A261CC12B7C005A22C8 /* libRCTCamera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41796A121CC12B00005A22C8 /* libRCTCamera.a */; };
+		41796A271CC12B82005A22C8 /* libRCTMaterialKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41796A1E1CC12B26005A22C8 /* libRCTMaterialKit.a */; };
+		41796A281CC12B86005A22C8 /* libRNDeviceInfo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41796A0C1CC12A96005A22C8 /* libRNDeviceInfo.a */; };
+		41796A291CC12B8A005A22C8 /* libRNFS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 417969FE1CC128E1005A22C8 /* libRNFS.a */; };
+		41796A2B1CC12B93005A22C8 /* libTouchID.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41796A241CC12B42005A22C8 /* libTouchID.a */; };
+		41875E981BD4D22700DA6D72 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41875E971BD4D22700DA6D72 /* Default-568h@2x.png */; };
+		41C2911F1C63590A0049E2E6 /* YTPlayerView-iframe-player.html in Resources */ = {isa = PBXBuildFile; fileRef = 41C2911E1C63590A0049E2E6 /* YTPlayerView-iframe-player.html */; };
+		41C291261C6359290049E2E6 /* libRCTYouTube.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C291251C63591D0049E2E6 /* libRCTYouTube.a */; };
+		41C291361C63598D0049E2E6 /* libRCTVideo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C2912C1C6359440049E2E6 /* libRCTVideo.a */; };
+		41C291371C6359950049E2E6 /* libRNMotionManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C291331C6359830049E2E6 /* libRNMotionManager.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		417969FD1CC128E1005A22C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 417969F71CC128E1005A22C8 /* RNFS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F12AFB9B1ADAF8F800E0535D;
+			remoteInfo = RNFS;
+		};
+		41796A0B1CC12A96005A22C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41796A071CC12A96005A22C8 /* RNDeviceInfo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DA5891D81BA9A9FC002B4DB2;
+			remoteInfo = RNDeviceInfo;
+		};
+		41796A111CC12B00005A22C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41796A0D1CC12B00005A22C8 /* RCTCamera.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4107012F1ACB723B00C6AA39;
+			remoteInfo = RCTCamera;
+		};
+		41796A171CC12B11005A22C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41796A131CC12B11005A22C8 /* BVLinearGradient.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = BVLinearGradient;
+		};
+		41796A1D1CC12B26005A22C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41796A191CC12B26005A22C8 /* RCTMaterialKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8A1B8E771B22E4E300DB45C2;
+			remoteInfo = RCTMaterialKit;
+		};
+		41796A231CC12B42005A22C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41796A1F1CC12B42005A22C8 /* TouchID.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = TouchID;
+		};
+		41C291241C63591D0049E2E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41C291201C63591D0049E2E6 /* RCTYouTube.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8BDB9BC91B4289AE00EF9FEF;
+			remoteInfo = RCTYouTube;
+		};
+		41C2912B1C6359440049E2E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41C291271C6359440049E2E6 /* RCTVideo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RCTVideo;
+		};
+		41C291321C6359830049E2E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41C2912D1C6359820049E2E6 /* RNMotionManager.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BB9CC7ED1AE0A2EB008A1D08;
+			remoteInfo = RNMotionManager;
+		};
+		41C291341C6359830049E2E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41C2912D1C6359820049E2E6 /* RNMotionManager.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BB9CC7F81AE0A2EB008A1D08;
+			remoteInfo = RNMotionManagerTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01C9AF1B8F93A272CE4C464B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		13DBE53D5ABD1834E96D1EBD /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		1A8DA8CD1BB124B100F538AC /* SiphonBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SiphonBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A8DA8D11BB124B100F538AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A8DA8D31BB124B100F538AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1A8DA8D41BB124B100F538AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1A8DA8DC1BB124B100F538AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A8DA8E11BB124B100F538AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41152B2D1C4FCB95005A718F /* SPConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPConfig.h; sourceTree = "<group>"; };
+		41152B2E1C4FCBAF005A718F /* SPConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPConfig.m; sourceTree = "<group>"; };
+		41152B301C4FCC23005A718F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		41152B311C4FCDCF005A718F /* libSiphonSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSiphonSDK.a; path = "../../../../../siphon-sdk-ios/SiphonSDK/Build/Products/Release-universal/libSiphonSDK.a"; sourceTree = "<group>"; };
+		413BBE091C3544AD005670FE /* Entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Entypo.ttf; sourceTree = "<group>"; };
+		413BBE0A1C3544AD005670FE /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EvilIcons.ttf; sourceTree = "<group>"; };
+		413BBE0B1C3544AD005670FE /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		413BBE0C1C3544AD005670FE /* Foundation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Foundation.ttf; sourceTree = "<group>"; };
+		413BBE0D1C3544AD005670FE /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ionicons.ttf; sourceTree = "<group>"; };
+		413BBE0E1C3544AD005670FE /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialIcons.ttf; sourceTree = "<group>"; };
+		413BBE0F1C3544AD005670FE /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Octicons.ttf; sourceTree = "<group>"; };
+		413BBE101C3544AD005670FE /* Zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zocial.ttf; sourceTree = "<group>"; };
+		414B1B221C0AD0DA0042C4B5 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		417969F71CC128E1005A22C8 /* RNFS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNFS.xcodeproj; path = "../../lib/node_modules/react-native-fs/RNFS.xcodeproj"; sourceTree = "<group>"; };
+		41796A071CC12A96005A22C8 /* RNDeviceInfo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNDeviceInfo.xcodeproj; path = "../../lib/node_modules/react-native-device-info/RNDeviceInfo.xcodeproj"; sourceTree = "<group>"; };
+		41796A0D1CC12B00005A22C8 /* RCTCamera.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTCamera.xcodeproj; path = "../../lib/node_modules/react-native-camera/ios/RCTCamera.xcodeproj"; sourceTree = "<group>"; };
+		41796A131CC12B11005A22C8 /* BVLinearGradient.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BVLinearGradient.xcodeproj; path = "../../lib/node_modules/react-native-linear-gradient/BVLinearGradient.xcodeproj"; sourceTree = "<group>"; };
+		41796A191CC12B26005A22C8 /* RCTMaterialKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTMaterialKit.xcodeproj; path = "../../lib/node_modules/react-native-material-kit/iOS/RCTMaterialKit.xcodeproj"; sourceTree = "<group>"; };
+		41796A1F1CC12B42005A22C8 /* TouchID.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TouchID.xcodeproj; path = "../../lib/node_modules/react-native-touch-id/TouchID.xcodeproj"; sourceTree = "<group>"; };
+		41875E971BD4D22700DA6D72 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		41C2911E1C63590A0049E2E6 /* YTPlayerView-iframe-player.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "YTPlayerView-iframe-player.html"; path = "../../lib/node_modules/react-native-youtube/Assets/YTPlayerView-iframe-player.html"; sourceTree = "<group>"; };
+		41C291201C63591D0049E2E6 /* RCTYouTube.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTYouTube.xcodeproj; path = "../../lib/node_modules/react-native-youtube/RCTYouTube.xcodeproj"; sourceTree = "<group>"; };
+		41C291271C6359440049E2E6 /* RCTVideo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTVideo.xcodeproj; path = "../../lib/node_modules/react-native-video/RCTVideo.xcodeproj"; sourceTree = "<group>"; };
+		41C2912D1C6359820049E2E6 /* RNMotionManager.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNMotionManager.xcodeproj; path = "../../lib/node_modules/react-native-motion-manager/RNMotionManager.xcodeproj"; sourceTree = "<group>"; };
+		41EEE67E1C4FB9F400F4C543 /* libSiphonSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSiphonSDK.a; path = "Pods/Siphon/SiphonSDK/Build/Products/Release-universal/libSiphonSDK.a"; sourceTree = "<group>"; };
+		C16A3101CB869D56A6B4A397 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A8DA8CA1BB124B100F538AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31755D07869242491551A4C7 /* Pods.framework in Frameworks */,
+				41796A2B1CC12B93005A22C8 /* libTouchID.a in Frameworks */,
+				41796A271CC12B82005A22C8 /* libRCTMaterialKit.a in Frameworks */,
+				41796A251CC12B74005A22C8 /* libBVLinearGradient.a in Frameworks */,
+				41796A261CC12B7C005A22C8 /* libRCTCamera.a in Frameworks */,
+				41796A281CC12B86005A22C8 /* libRNDeviceInfo.a in Frameworks */,
+				41796A291CC12B8A005A22C8 /* libRNFS.a in Frameworks */,
+				41C291371C6359950049E2E6 /* libRNMotionManager.a in Frameworks */,
+				41C291261C6359290049E2E6 /* libRCTYouTube.a in Frameworks */,
+				41C291361C63598D0049E2E6 /* libRCTVideo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A8DA8C41BB124B100F538AC = {
+			isa = PBXGroup;
+			children = (
+				4193E5681C5BC380005563CE /* Bundled Resources */,
+				413BBE081C3544AD005670FE /* Fonts */,
+				41EACD621BE4EAEA005CA309 /* Libraries */,
+				41875E971BD4D22700DA6D72 /* Default-568h@2x.png */,
+				414B1B221C0AD0DA0042C4B5 /* Launch Screen.storyboard */,
+				1A8DA8CF1BB124B100F538AC /* SiphonBase */,
+				1A8DA8CE1BB124B100F538AC /* Products */,
+				66408707C50F049DD2FE28A3 /* Pods */,
+				3A269B238E7522CEFB59CC6D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1A8DA8CE1BB124B100F538AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A8DA8CD1BB124B100F538AC /* SiphonBase.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A8DA8CF1BB124B100F538AC /* SiphonBase */ = {
+			isa = PBXGroup;
+			children = (
+				1A8DA8D31BB124B100F538AC /* AppDelegate.h */,
+				1A8DA8D41BB124B100F538AC /* AppDelegate.m */,
+				1A8DA8DC1BB124B100F538AC /* Assets.xcassets */,
+				1A8DA8E11BB124B100F538AC /* Info.plist */,
+				1A8DA8D01BB124B100F538AC /* Supporting Files */,
+				41152B301C4FCC23005A718F /* PrefixHeader.pch */,
+				41152B2D1C4FCB95005A718F /* SPConfig.h */,
+				41152B2E1C4FCBAF005A718F /* SPConfig.m */,
+			);
+			path = SiphonBase;
+			sourceTree = "<group>";
+		};
+		1A8DA8D01BB124B100F538AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A8DA8D11BB124B100F538AC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3A269B238E7522CEFB59CC6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41152B311C4FCDCF005A718F /* libSiphonSDK.a */,
+				41EEE67E1C4FB9F400F4C543 /* libSiphonSDK.a */,
+				C16A3101CB869D56A6B4A397 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		413BBE081C3544AD005670FE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				413BBE091C3544AD005670FE /* Entypo.ttf */,
+				413BBE0A1C3544AD005670FE /* EvilIcons.ttf */,
+				413BBE0B1C3544AD005670FE /* FontAwesome.ttf */,
+				413BBE0C1C3544AD005670FE /* Foundation.ttf */,
+				413BBE0D1C3544AD005670FE /* Ionicons.ttf */,
+				413BBE0E1C3544AD005670FE /* MaterialIcons.ttf */,
+				413BBE0F1C3544AD005670FE /* Octicons.ttf */,
+				413BBE101C3544AD005670FE /* Zocial.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		417969F81CC128E1005A22C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				417969FE1CC128E1005A22C8 /* libRNFS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41796A081CC12A96005A22C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41796A0C1CC12A96005A22C8 /* libRNDeviceInfo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41796A0E1CC12B00005A22C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41796A121CC12B00005A22C8 /* libRCTCamera.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41796A141CC12B11005A22C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41796A181CC12B11005A22C8 /* libBVLinearGradient.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41796A1A1CC12B26005A22C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41796A1E1CC12B26005A22C8 /* libRCTMaterialKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41796A201CC12B42005A22C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41796A241CC12B42005A22C8 /* libTouchID.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4193E5681C5BC380005563CE /* Bundled Resources */ = {
+			isa = PBXGroup;
+			children = (
+				41C2911E1C63590A0049E2E6 /* YTPlayerView-iframe-player.html */,
+			);
+			name = "Bundled Resources";
+			sourceTree = "<group>";
+		};
+		41C291211C63591D0049E2E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41C291251C63591D0049E2E6 /* libRCTYouTube.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41C291281C6359440049E2E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41C2912C1C6359440049E2E6 /* libRCTVideo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41C2912E1C6359820049E2E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41C291331C6359830049E2E6 /* libRNMotionManager.a */,
+				41C291351C6359830049E2E6 /* RNMotionManagerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41EACD621BE4EAEA005CA309 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				41796A1F1CC12B42005A22C8 /* TouchID.xcodeproj */,
+				41796A191CC12B26005A22C8 /* RCTMaterialKit.xcodeproj */,
+				41796A131CC12B11005A22C8 /* BVLinearGradient.xcodeproj */,
+				41796A0D1CC12B00005A22C8 /* RCTCamera.xcodeproj */,
+				41796A071CC12A96005A22C8 /* RNDeviceInfo.xcodeproj */,
+				417969F71CC128E1005A22C8 /* RNFS.xcodeproj */,
+				41C2912D1C6359820049E2E6 /* RNMotionManager.xcodeproj */,
+				41C291271C6359440049E2E6 /* RCTVideo.xcodeproj */,
+				41C291201C63591D0049E2E6 /* RCTYouTube.xcodeproj */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		66408707C50F049DD2FE28A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13DBE53D5ABD1834E96D1EBD /* Pods.debug.xcconfig */,
+				01C9AF1B8F93A272CE4C464B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A8DA8CC1BB124B100F538AC /* SiphonBase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A8DA8E41BB124B100F538AC /* Build configuration list for PBXNativeTarget "SiphonBase" */;
+			buildPhases = (
+				A27433CD5820EB0F8206DF4D /* Check Pods Manifest.lock */,
+				1A8DA8C91BB124B100F538AC /* Sources */,
+				1A8DA8CA1BB124B100F538AC /* Frameworks */,
+				1A8DA8CB1BB124B100F538AC /* Resources */,
+				72ED25A29A538C59B67C7A2A /* Embed Pods Frameworks */,
+				D61ACC034F43D10576E65E45 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SiphonBase;
+			productName = SiphonBase;
+			productReference = 1A8DA8CD1BB124B100F538AC /* SiphonBase.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A8DA8C51BB124B100F538AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Siphon;
+				TargetAttributes = {
+					1A8DA8CC1BB124B100F538AC = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = JTQDPNBMAB;
+					};
+				};
+			};
+			buildConfigurationList = 1A8DA8C81BB124B100F538AC /* Build configuration list for PBXProject "SiphonBase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A8DA8C41BB124B100F538AC;
+			productRefGroup = 1A8DA8CE1BB124B100F538AC /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 41796A141CC12B11005A22C8 /* Products */;
+					ProjectRef = 41796A131CC12B11005A22C8 /* BVLinearGradient.xcodeproj */;
+				},
+				{
+					ProductGroup = 41796A0E1CC12B00005A22C8 /* Products */;
+					ProjectRef = 41796A0D1CC12B00005A22C8 /* RCTCamera.xcodeproj */;
+				},
+				{
+					ProductGroup = 41796A1A1CC12B26005A22C8 /* Products */;
+					ProjectRef = 41796A191CC12B26005A22C8 /* RCTMaterialKit.xcodeproj */;
+				},
+				{
+					ProductGroup = 41C291281C6359440049E2E6 /* Products */;
+					ProjectRef = 41C291271C6359440049E2E6 /* RCTVideo.xcodeproj */;
+				},
+				{
+					ProductGroup = 41C291211C63591D0049E2E6 /* Products */;
+					ProjectRef = 41C291201C63591D0049E2E6 /* RCTYouTube.xcodeproj */;
+				},
+				{
+					ProductGroup = 41796A081CC12A96005A22C8 /* Products */;
+					ProjectRef = 41796A071CC12A96005A22C8 /* RNDeviceInfo.xcodeproj */;
+				},
+				{
+					ProductGroup = 417969F81CC128E1005A22C8 /* Products */;
+					ProjectRef = 417969F71CC128E1005A22C8 /* RNFS.xcodeproj */;
+				},
+				{
+					ProductGroup = 41C2912E1C6359820049E2E6 /* Products */;
+					ProjectRef = 41C2912D1C6359820049E2E6 /* RNMotionManager.xcodeproj */;
+				},
+				{
+					ProductGroup = 41796A201CC12B42005A22C8 /* Products */;
+					ProjectRef = 41796A1F1CC12B42005A22C8 /* TouchID.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1A8DA8CC1BB124B100F538AC /* SiphonBase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		417969FE1CC128E1005A22C8 /* libRNFS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNFS.a;
+			remoteRef = 417969FD1CC128E1005A22C8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		41796A0C1CC12A96005A22C8 /* libRNDeviceInfo.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNDeviceInfo.a;
+			remoteRef = 41796A0B1CC12A96005A22C8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		41796A121CC12B00005A22C8 /* libRCTCamera.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTCamera.a;
+			remoteRef = 41796A111CC12B00005A22C8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		41796A181CC12B11005A22C8 /* libBVLinearGradient.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libBVLinearGradient.a;
+			remoteRef = 41796A171CC12B11005A22C8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		41796A1E1CC12B26005A22C8 /* libRCTMaterialKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTMaterialKit.a;
+			remoteRef = 41796A1D1CC12B26005A22C8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		41796A241CC12B42005A22C8 /* libTouchID.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libTouchID.a;
+			remoteRef = 41796A231CC12B42005A22C8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		41C291251C63591D0049E2E6 /* libRCTYouTube.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTYouTube.a;
+			remoteRef = 41C291241C63591D0049E2E6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		41C2912C1C6359440049E2E6 /* libRCTVideo.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTVideo.a;
+			remoteRef = 41C2912B1C6359440049E2E6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		41C291331C6359830049E2E6 /* libRNMotionManager.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNMotionManager.a;
+			remoteRef = 41C291321C6359830049E2E6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		41C291351C6359830049E2E6 /* RNMotionManagerTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RNMotionManagerTests.xctest;
+			remoteRef = 41C291341C6359830049E2E6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A8DA8CB1BB124B100F538AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				413BBE141C3544AD005670FE /* Foundation.ttf in Resources */,
+				413BBE151C3544AD005670FE /* Ionicons.ttf in Resources */,
+				41C2911F1C63590A0049E2E6 /* YTPlayerView-iframe-player.html in Resources */,
+				413BBE111C3544AD005670FE /* Entypo.ttf in Resources */,
+				414B1B231C0AD0DA0042C4B5 /* Launch Screen.storyboard in Resources */,
+				1A8DA8DD1BB124B100F538AC /* Assets.xcassets in Resources */,
+				413BBE181C3544AD005670FE /* Zocial.ttf in Resources */,
+				413BBE131C3544AD005670FE /* FontAwesome.ttf in Resources */,
+				413BBE161C3544AD005670FE /* MaterialIcons.ttf in Resources */,
+				413BBE121C3544AD005670FE /* EvilIcons.ttf in Resources */,
+				413BBE171C3544AD005670FE /* Octicons.ttf in Resources */,
+				41875E981BD4D22700DA6D72 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		72ED25A29A538C59B67C7A2A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A27433CD5820EB0F8206DF4D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\n# if [[ $? != 0 ]] ; then\n#    cat << EOM\n#error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\n#EOM\n#    exit 1\n#fi\n";
+			showEnvVarsInLog = 0;
+		};
+		D61ACC034F43D10576E65E45 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A8DA8C91BB124B100F538AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A8DA8D51BB124B100F538AC /* AppDelegate.m in Sources */,
+				41152B2F1C4FCBAF005A718F /* SPConfig.m in Sources */,
+				1A8DA8D21BB124B100F538AC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1A8DA8E21BB124B100F538AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A8DA8E31BB124B100F538AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A8DA8E51BB124B100F538AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13DBE53D5ABD1834E96D1EBD /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SiphonBase/PrefixHeader.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = SiphonBase/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/Siphon/SiphonSDK/Build/Products/Release-universal",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.getsiphon.SiphonBase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A8DA8E61BB124B100F538AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01C9AF1B8F93A272CE4C464B /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SiphonBase/PrefixHeader.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = SiphonBase/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/Siphon/SiphonSDK/Build/Products/Release-universal",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.getsiphon.SiphonBase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A8DA8C81BB124B100F538AC /* Build configuration list for PBXProject "SiphonBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A8DA8E21BB124B100F538AC /* Debug */,
+				1A8DA8E31BB124B100F538AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A8DA8E41BB124B100F538AC /* Build configuration list for PBXNativeTarget "SiphonBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A8DA8E51BB124B100F538AC /* Debug */,
+				1A8DA8E61BB124B100F538AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A8DA8C51BB124B100F538AC /* Project object */;
+}

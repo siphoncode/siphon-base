@@ -1,0 +1,8 @@
+
+// To be provided at the top of the file
+
+var __SIPHON = {appID: '__SIPHON_APP_ID'};
+
+var __GET_SIPHON_ASSET_DIR = function(){
+    return "__SIPHON_ASSET_URL";
+};
